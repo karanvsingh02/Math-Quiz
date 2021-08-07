@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: slategray;
+    background-image: url("background4.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+    
+}
+.login_div1{
+
+    margin-top: 20px;
+    text-align:center;
+    background-color: rgb(245, 201, 79);
+    border-radius: 15px;
+    float: none;
+    height:300px;
+}
+
+label{
+    margin-top: 60px;
+}
