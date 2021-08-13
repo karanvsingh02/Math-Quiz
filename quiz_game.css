@@ -1,4 +1,4 @@
-body {
+#index_body {
     text-align: center;
     background-color: slategray;
     background-image: url("background4.jpg");
@@ -6,6 +6,14 @@ body {
     background-size: 1600px 900px;
     
 }
+
+#game_body {
+    background-color: slategray;
+    background-image: url("Background5.jfif");
+    background-repeat: no-repeat;
+    background-size: 1550px 900px;
+}
+
 .login_div1{
 
     margin-top: 20px;
@@ -18,4 +26,13 @@ body {
 
 label{
     margin-top: 60px;
+}
+
+#output{
+    background: #F16A70;
+    border-radius: 10px;
+    border-top: 10px solid white;
+    padding:10px;
+    float:none;
+    text-align: left;
 }
