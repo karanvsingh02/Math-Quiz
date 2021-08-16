@@ -13,29 +13,26 @@
 <script src="quiz_game_login.js"></script>
 </head>
 
-<body id="game_body">
+<body id="index_body">
 
-    <h4 id="player_1_name"></h4><span id="player1_score"></span>
-	<br>
-	<h4 id="player_2_name"></h4><span id="player2_score"></span>
+<center>
+    <label style="font-size: 35px; color: #D9514EFF; background-color: black;">Welcome To The Math Quiz</label>
     <br>
-    <center>
+    <label style=" font-size: 20px; color: #2DA8D8FF;  background-color: black;">Please Enter Player 1 And Player 2 Names</label>
+    <br><br>
+    <br>
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
 
-        <h2 style="color: #B1D877; background-color:black;">Guess The Number!</h2>
-		<h3 id="player_question"></h3>
-		<h3 id="player_answer"></h3>
-		<div id="output" class="container"> </div>
-		<br>
-        <br>
+    <label>Sign in</label>
+    <br><br>
+    <input type="text" id="player_name_1_input" class="form control" placeholder="Player 1 Name">
+    <br>
+    <br>
+    <input type="text" id="player_name_2_input" class="form control" placeholder="Player 2 Name">
+    <br><br><br>
+    <button id="Log_In" class="btn btn-primary" onclick="addplayers();">Log In</button>
+</div>
 
-        <h3 style="color: #8CDCDA; background-color:black;">Number 1</h3>
-        <input type="text" id="Number_1" style="border-radius:10px;"  placeholder="Enter Your First Number">
-        <br><br>
-        <h3 style="color: #4D4D4D; background-color:black;">Number 2</h3>
-        <input type="text" id="Number_2" style="border-radius:10px;"  placeholder="Enter Your Second Number">
-        <br><br><br> 
-		<button onclick="send();" style=" border-radius: 10px; width: 30%; height: 35px; background-color: wheat; color: black;">
-        Send Question</button>
-        
-    </center>
+</center>
 </body>
+</html>
